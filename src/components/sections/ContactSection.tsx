@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Otto-Suhr-Allee 114, 10585 Berlin
+                    Wilmersdorfer Str. 75, 10629 Berlin
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:01797419972"
+                    href="tel:01784059947"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    01797419972
+                    01784059947
                   </a>
                 </div>
               </div>
@@ -84,8 +84,9 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Sa. 10:00–20:00 Uhr
-                    
+                    Di. – Fr. 10:00–19:00 Uhr
+                    <br />
+                    Sa. 9:00–16:00 Uhr
                   </p>
                 </div>
               </div>
@@ -98,7 +99,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:01797419972">Jetzt anrufen</a>
+                <a href="tel:01784059947">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -107,16 +108,7 @@ export const ContactSection = () => {
           <AnimateOnScroll animation="slide-left">
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38845.59736236041!2d13.229483148632825!3d52.51805660000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851bac98afa27%3A0xd08eaa829551cde5!2sBarber%20shop%20030%20-%20Berlin!5e0!3m2!1sde!2sde!4v1771101540892!5m2!1sde!2sde"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Top Salon – Nürnberg"
-                />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde3" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
               {/* Overlay Card */}
