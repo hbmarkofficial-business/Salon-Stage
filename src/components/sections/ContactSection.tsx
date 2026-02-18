@@ -108,7 +108,16 @@ export const ContactSection = () => {
           <AnimateOnScroll animation="slide-left">
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde3" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19429.459446051176!2d13.269412574316403!3d52.5029879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850e70ea8b501%3A0xd972a4f4f647c5cd!2sSalon%20Stage!5e0!3m2!1sde!2sde!4v1771448436507!5m2!1sde!2sde"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Standort The Gentleman's Cut"
+                />
               </div>
 
               {/* Overlay Card */}
