@@ -43,7 +43,7 @@ const Contact = () => {
               "@type": "AdministrativeArea",
               "name": "Wien"
             },
-  0         "openingHoursSpecification": [
+           "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -215,7 +215,7 @@ const Contact = () => {
 
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-      0                 <Mail className="w-5 h-5 text-primary" />
+                       <Mail className="w-5 h-5 text-primary" />
                       </div>
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
